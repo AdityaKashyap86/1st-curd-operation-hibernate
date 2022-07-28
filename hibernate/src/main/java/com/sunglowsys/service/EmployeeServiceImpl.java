@@ -21,21 +21,28 @@ public class EmployeeServiceImpl implements EmployeeService{
 
     @Override
     public Employee update(Employee employee, Long id) {
+        employeeRepository.update (employee,id);
         return null;
     }
 
     @Override
     public List<Employee> findAll() {
-        return null;
+        List<Employee> employees = employeeRepository.findAll ();
+        return employees;
     }
 
     @Override
     public Employee findByID(Long id) {
-        return null;
+        Employee employee = employeeRepository.findById (id);
+        if (employee == null) {
+            System.out.println ("Data is not available for id:" + id);
+        }
+            return employee;
     }
 
     @Override
-    public Void delete() {
+    public Void delete(Long id) {
+        employeeRepository.delete (id);
         return null;
     }
 }

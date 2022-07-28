@@ -7,12 +7,10 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 public class SaveEmployee {
-
-
     public static void main(String[] args) {
         EmployeeService  employeeService = new EmployeeServiceImpl ();
 
-        Employee employee = new Employee ("Aditya","Kashyap","mirehchi","Adi@gmail.com",8449308155l);
+        Employee employee = new Employee ("Narendra","kumar","Mirehchi","Narendrasingh@gmail.com",8878756757l);
         employeeService.save (employee);
     }
 }

@@ -14,6 +14,6 @@ public interface EmployeeService {
 
     Employee findByID(Long id);
 
-    Void delete();
+    Void delete(Long id);
 
 }
