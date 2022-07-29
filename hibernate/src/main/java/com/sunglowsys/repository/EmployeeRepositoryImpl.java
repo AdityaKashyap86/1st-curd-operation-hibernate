@@ -40,7 +40,8 @@ public class EmployeeRepositoryImpl implements EmployeeRepository{
     @Override
     public List<Employee> findAll() {
         Session session = sessionFactory.openSession ();
-        Query query = session.createQuery ("from Employee");
+        Query query = session.createQuery ("from " +
+                "Employee");
         List<Employee> employeeList = query.getResultList ();
         session.close ();
         return employeeList;
