@@ -1,0 +1,13 @@
+
+—
+java:S1186)"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â¥ÿí
+Q
+java:S1854"6Remove this useless assignment to local variable "id".(É­È×ûÿÿÿÿ
+Z
+java:S1854"?Remove this useless assignment to local variable "transaction".(¹æ¢üÿÿÿÿ
+K
+java:S1481"0Remove this unused "transaction" local variable.(¹æ¢üÿÿÿÿ
+B
+java:S1481"'Remove this unused "id" local variable.(É­È×ûÿÿÿÿ
+A
+java:S1168 "+Return an empty collection instead of null.(¥¹ï

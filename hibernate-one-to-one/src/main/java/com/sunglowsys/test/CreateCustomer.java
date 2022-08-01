@@ -8,7 +8,7 @@ public class CreateCustomer {
     public static void main(String[] args) {
 
         Address address = new Address("mirehchi","etah","207125","UP");
-        Customer customer = new Customer("Amit","Kasap","AmitKyap@gmail.com","878798534",address);
+        Customer customer = new Customer("it","Kasap","shitKyap@gmail.com","874598534",address);
         new CustomerServiceImpl().save(customer);
 
     }

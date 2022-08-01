@@ -1,0 +1,14 @@
+
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ºÈ§Á8×êÒ×¤0
+Q
+java:S1128"4Remove this unused import 'org.hibernate.Hibernate'.(óñ‹è8×êÒ×¤0
+T
+java:S1128"2Remove this unused import 'org.hibernate.Session'.(È¹›§ùÿÿÿÿ8×êÒ×¤0
+[
+java:S1128"9Remove this unused import 'org.hibernate.SessionFactory'.(ñ¦«¬şÿÿÿÿ8×êÒ×¤0
+~
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "employees".(î›ñÎ8×êÒ×¤0
+{
+java:S1104"^Make employeeRepository a static final constant or non-public and provide accessors if needed.( ààİ8æêÒ×¤0
+U
+java:S1444"8Make this "public static employeeRepository" field final( ààİ8æêÒ×¤0

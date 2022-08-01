@@ -1,0 +1,19 @@
+
+S
+java:S1854"6Remove this useless assignment to local variable "id".(Ó‰æÛ8õåÒ×¤0
+a
+java:S1854"?Remove this useless assignment to local variable "transaction".(¹æ¢üÿÿÿÿ8õåÒ×¤0
+R
+java:S1481"0Remove this unused "transaction" local variable.(¹æ¢üÿÿÿÿ8”æÒ×¤0
+D
+java:S1481"'Remove this unused "id" local variable.(Ó‰æÛ8¤æÒ×¤0
+a
+java:S1854"?Remove this useless assignment to local variable "transaction".(¹æ¢üÿÿÿÿ8¤æÒ×¤0
+R
+java:S1481"0Remove this unused "transaction" local variable.(¹æ¢üÿÿÿÿ8´æÒ×¤0
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Ôüã•ûÿÿÿÿ8´æÒ×¤0
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(©¢¾¾ùÿÿÿÿ8ÃæÒ×¤0
+a
+java:S1854>"?Remove this useless assignment to local variable "transaction".(¹æ¢üÿÿÿÿ8ÃæÒ×¤0
+R
+java:S1481>"0Remove this unused "transaction" local variable.(¹æ¢üÿÿÿÿ8ÓæÒ×¤0
